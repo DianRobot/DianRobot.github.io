@@ -10,7 +10,7 @@ baseURL: 'https://dianrobot.github.io/' # Website URL
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: cn
+defaultContentLanguage: zh
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
