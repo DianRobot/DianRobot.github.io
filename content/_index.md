@@ -10,11 +10,15 @@ sections:
       title: |
         Diangroup Robotics Lab
       image:
-        filename: welcome.jpg
+        filename: Dian_logo.gif
       text: |
         <br>
         
-        The **Diangroup Robotics Lab** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+        我们的主要研究方向包括：
+        机器人抓取和操作
+        机械臂化学实验平台
+        强化学习/LLM 
+        人形机器人/双臂机器人
   
   - block: collection
     content:
