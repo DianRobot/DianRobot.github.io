@@ -10,18 +10,18 @@ sections:
       title: |
         Diangroup Robotics Lab
       image:
-        filename: ./content/dian_lab.jpg
+        filename: dian_lab.jpg
       text: |
         <br>
         我们的主要研究方向包括：
+  
+        - 机器人抓取和操作
         
-        机器人抓取和操作
+        - 机械臂化学实验平台
         
-        机械臂化学实验平台
+        - 强化学习/LLM 
         
-        强化学习/LLM 
-        
-        人形机器人/双臂机器人
+        - 人形机器人/双臂机器人
   
   - block: collection
     content:
