@@ -10,7 +10,7 @@ sections:
       title: |
         Diangroup Robotics Lab
       image:
-        filename: dian_lab.gif
+        filename: dian_lab.jpg
       text: |
         <br>
         
