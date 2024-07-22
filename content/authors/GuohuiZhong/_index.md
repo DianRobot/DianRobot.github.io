@@ -4,7 +4,7 @@ title: Guohui Zhong 钟国辉
 
 # Full name (for SEO)
 first_name: Guohui
-last_name: 3Zhong
+last_name: 2Zhong
 
 # Username (this should match the folder name)
 authors:

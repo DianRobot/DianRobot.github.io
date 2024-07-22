@@ -4,11 +4,11 @@ title: Chengwei Zhang 张成伟
 
 # Full name (for SEO)
 first_name: Chengwei
-last_name: 2Zhang
+last_name: 3Zhang
 
 # Username (this should match the folder name)
 authors:
-  - 2ChengweiZhang
+  - ChengweiZhang
 
 # Is this the primary user of the site?
 superuser: false
