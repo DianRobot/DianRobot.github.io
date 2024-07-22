@@ -4,7 +4,7 @@ title: Chengwei Zhang 张成伟
 
 # Full name (for SEO)
 first_name: Chengwei
-last_name: Zhang
+last_name: 2Zhang
 
 # Username (this should match the folder name)
 authors:
