@@ -4,7 +4,7 @@ title: Yayu Gao 高雅玙
 
 # Full name (for SEO)
 first_name: Yayu
-last_name: Gao
+last_name: 4Gao
 
 # Username (this should match the folder name)
 authors:

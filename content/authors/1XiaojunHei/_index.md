@@ -4,7 +4,7 @@ title: Xiaojun Hei 黑晓军
 
 # Full name (for SEO)
 first_name: Xiaojun
-last_name: Hei
+last_name: 1Hei
 
 # Username (this should match the folder name)
 authors:
