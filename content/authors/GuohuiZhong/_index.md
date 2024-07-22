@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Guohui Zhong 黑晓军
+title: Guohui Zhong 钟国辉
 
 # Full name (for SEO)
 first_name: Guohui

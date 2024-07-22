@@ -1,14 +1,14 @@
 ---
 # Display name
-title: Xiaojun Hei 黑晓军
+title: Yayu Gao 高雅玙
 
 # Full name (for SEO)
-first_name: Xiaojun
-last_name: Hei
+first_name: Yayu
+last_name: Gao
 
 # Username (this should match the folder name)
 authors:
-  - XiaojunHei
+  - YayuGao
 
 # Is this the primary user of the site?
 superuser: false
