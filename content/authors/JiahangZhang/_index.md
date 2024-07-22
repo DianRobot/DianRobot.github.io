@@ -8,13 +8,13 @@ last_name: Zhang
 
 # Username (this should match the folder name)
 authors:
-  - 4th-year undergraduate student
+  - JiahangZhang
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: 4th-year undergraduate student
 
 # Organizations/Affiliations
 organizations:
