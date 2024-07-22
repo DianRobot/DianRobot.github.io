@@ -1,14 +1,14 @@
 ---
 # Display name
-title: Chengwei Zhang 张成伟
+title: Xiaojun Hei 黑晓军
 
 # Full name (for SEO)
-first_name: Chengwei
-last_name: Zhang
+first_name: Xiaojun
+last_name: Hei
 
 # Username (this should match the folder name)
 authors:
-  - ChengweiZhang
+  - 1XiaojunHei
 
 # Is this the primary user of the site?
 superuser: false
