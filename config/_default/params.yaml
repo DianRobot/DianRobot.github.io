@@ -76,7 +76,7 @@ features:
     content_dir: content
     branch: main
   avatar:
-    gravatar: true
+    gravatar: false
     shape: circle
   comment:
     provider: ''
