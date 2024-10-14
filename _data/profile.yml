@@ -23,12 +23,10 @@ wechat_qrcode: /assets/images/etc/wechat.jpg
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    A <a href="https://en.wikipedia.org/wiki/Bicolor_cat" target="_blank">bicolor cat</a> is a cat with white fur combined with fur of some other colour, for example solid black, tabby, or colourpointed.
+    Hi! There is Dianguo Robotics Lab at Huazhong University of Science and Technology.
   </p>
   <p>
-    There are various patterns of a bicolour cat. These range from the Van-patterned (colour on the crown of the head 
-    and the tail only) to a solid colour with a throat locket or medallion. Bicolour coats are found in many cat breeds, 
-    as well as being common in domestic longhair and domestic shorthair cats.
+    We focus on the research of robotics and artificial intelligence including: reinforcement learning, robot manipulation, digital twin system, etc.
   </p>
 
 portrait_url: /assets/images/photos/portrait.jpg
