@@ -1,6 +1,6 @@
 primary_name: "DianGroup Robotics Lab"
 secondary_name: ""
-navbar_name: "Your Name"
+navbar_name: "DianGroup"
 
 positions:
 - logo: /assets/images/badges/hust.jpg  # Logo is optional
@@ -23,7 +23,7 @@ wechat_qrcode: /assets/images/etc/wechat.jpg
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    Hi! There is Dianguo Robotics Lab at Huazhong University of Science and Technology.
+    Hi! There is Diangroup Robotics Lab at Huazhong University of Science and Technology.
   </p>
   <p>
     We focus on the research of robotics and artificial intelligence including: reinforcement learning, robot manipulation, digital twin system, etc.
