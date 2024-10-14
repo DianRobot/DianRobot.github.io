@@ -1,10 +1,10 @@
 ---
 layout: default
-title : Showcase
-navbar_title: Showcase
+title : Faculty
+navbar_title: Faculty 
 ---
 
-{% assign cards_by_group = site.showcase | sort: "date" | reverse | where: "show", true | group_by_exp: "item", "item.group" %}
+{% assign cards_by_group = site.faculty | sort: "date" | reverse | where: "show", true | group_by_exp: "item", "item.group" %}
 
 {% for group in cards_by_group %}
 <h1>{{ group.name }}</h1>
