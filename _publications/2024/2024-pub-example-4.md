@@ -9,7 +9,7 @@ pub_post:       ' Under review.'
 # pub_date:       "2025"
 
 abstract: >-
-  In this paper, to improve the successrate of robot manipulation tasks with zero position problemand reduce the frequency of recalibration, we proposed a robot manipulation framework, the Self-Perceptive Framework(SPF), which uses reinforcement learning and incorporates self-perceptive information.
+  In this paper, to improve the success rate of robot manipulation tasks with zero position problem and reduce the frequency of recalibration, we proposed a robot manipulation framework, the Self-Perceptive Framework(SPF), which uses reinforcement learning and incorporates self-perceptive information.
 cover:          /assets/images/covers/icra2025.jpg
 authors:
   - <a href="https://wangzy233.github.io/" target="_blank">Ziyuan Wang</a>
