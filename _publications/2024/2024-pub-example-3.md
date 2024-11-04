@@ -2,7 +2,7 @@
 title:          "Deep Reinforcement Learning for Sim-to-Real Transfer in a Humanoid Robot Barista"
 date:           2024-10-09 00:01:00 +0800
 selected:       true
-pub:            "2024 IEEE International Conference on Robotics and Biomimetics (ROBIO)"
+pub:            "IEEE International Conference on Robotics and Biomimetics (ROBIO)"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
@@ -16,7 +16,7 @@ authors:
   - Yefan Lin
   - Leyu Zhao
   - <a href="https://hangr00.github.io/" target="_blank">Jiahang Zhang</a>
-  - <a href="https://scholar.google.cz/citations?user=x9vhdoIAAAAJ&hl=zh-CN&oi=ao" target="_blank">Xiaojun Hei#</a>
+  - <a href="https://scholar.google.cz/citations?user=x9vhdoIAAAAJ&hl=zh-CN&oi=ao" target="_blank">Xiaojun Hei</a>#
 links:
   Website: https://starletts.github.io/Ginger_Baristas.github.io/#
 ---
