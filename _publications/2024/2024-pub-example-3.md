@@ -16,7 +16,8 @@ authors:
   - Yefan Lin
   - Leyu Zhao
   - Jiahang Zhang
-  - Xiaojun Hei
+  - Xiaojun Hei#
+  - <a href="/authors/your-name" target="_blank">Your Name*</a>
 links:
   Website: https://starletts.github.io/Ginger_Baristas.github.io/#
 ---
