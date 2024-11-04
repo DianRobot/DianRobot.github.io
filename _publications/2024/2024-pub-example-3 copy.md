@@ -12,11 +12,15 @@ abstract: >-
   In this paper, we study the coffee-making application as an example. We proposed a reinforcement learning robot manipulation method with visual perception for filling-up the sim-to-real gap. We constructed a high-fidelity coffee making digital twin simulation environment.
 cover:          /assets/images/covers/robio.jpg
 authors:
-  - [Ziyuan Wang](https://wangzy233.github.io/)
-  - Yefan Lin
-  - Leyu Zhao
-  - [Jiahang Zhang](https://hangr00.github.io/)
-  - [Xiaojun Hei](https://scholar.google.cz/citations?user=x9vhdoIAAAAJ&hl=zh-CN&oi=ao)#
+  # - [Ziyuan Wang](https://wangzy233.github.io/)
+  # - Yefan Lin
+  # - Leyu Zhao
+  # - [Jiahang Zhang](https://hangr00.github.io/)
+  # - [Xiaojun Hei](https://scholar.google.cz/citations?user=x9vhdoIAAAAJ&hl=zh-CN&oi=ao)#
+  - <a href="/authors/your-name" target="_blank">Your Name*</a>
+  - <a href="/authors/robert-white" target="_blank">Robert White*</a>
+  - <a href="/authors/john-doe" target="_blank">John Doe</a>
+  - <a href="https://www.stanford.edu" target="_blank">Charles Green (Stanford)</a>
 links:
   # Code: https://github.com/luost26/academic-homepage
   Website: https://starletts.github.io/Ginger_Baristas.github.io/#
