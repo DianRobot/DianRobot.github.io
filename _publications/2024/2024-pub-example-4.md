@@ -16,7 +16,7 @@ authors:
   - Yefan Lin
   - <a href="https://hangr00.github.io/" target="_blank">Jiahang Zhang</a>
   - Changjiang Han
-  - <a href="https://scholar.google.cz/citations?user=x9vhdoIAAAAJ&hl=zh-CN&oi=ao" target="_blank">Xiaojun Hei#</a>
+  - <a href="https://scholar.google.cz/citations?user=x9vhdoIAAAAJ&hl=zh-CN&oi=ao" target="_blank">Xiaojun Hei</a>#
 links:
   # Code: https://github.com/luost26/academic-homepage
   # Website: https://starletts.github.io/Ginger_Baristas.github.io/#
