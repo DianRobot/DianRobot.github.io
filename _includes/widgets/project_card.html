@@ -1,0 +1,120 @@
+<div class="row">
+    <div class="col">
+        <div class="card border-0 shadow-sm bg-white">
+            <div class="card-body p-5">
+                <div class="row">
+                    <div class="col">
+                        {% if site.data.project.portrait_url %}
+                        <!-- When the screen is wider than md, float the portrait on the right -->
+                        <div class="figure float-right ml-4 mb-4 d-none d-md-block">
+                            <img 
+                                src="{{ site.data.project.portrait_url | relative_url }}" 
+                                class="figure-img img-fluid img-thumbnail" 
+                                style="height: 200px;"
+                                data-toggle="tooltip" 
+                                data-placement="top" 
+                                title="{{ site.data.project.portrait_caption }}">
+                        </div>
+                        {% endif %}
+
+                        <div class="h1 font-weight-normal">
+                            {{ site.data.project.primary_name }} <small>{{ site.data.project.secondary_name }}</small>
+                        </div>
+                        <div class="text-project-position">
+                            {% for position in site.data.project.positions %}
+                            {% if position.logo -%}
+                            <img src="{{ position.logo | relative_url }}" alt="Logo" class="inline-badge"/>
+                            {%- endif %}
+                            {{ position.name }}<br/>
+                            {% endfor %}
+                        </div>
+                        <div class="text-project-bio mt-3" {% if site.data.project.short_bio_text_justify %}style="text-align: justify;"{% endif %}>
+                            {{ site.data.project.short_bio }}
+                        </div>
+                        {% if site.data.project.cv_link %}
+                            <a target="_blank" href="{{ site.data.project.cv_link }}"><i class="fas fa-file-alt"></i> Curriculum Vitae</a> <br/>
+                        {% endif %}
+                    </div>
+
+                    {% if site.data.project.portrait_url %}
+                    <!-- When the screen is smaller than md, place the portrait below the text -->
+                    <div class="figure col-md-auto d-md-none">
+                        <img 
+                            src="{{ site.data.project.portrait_url | relative_url }}" 
+                            class="figure-img img-fluid img-thumbnail" 
+                            style="height: 200px;"
+                            data-toggle="tooltip" 
+                            data-placement="top" 
+                            title="{{ site.data.project.portrait_caption }}">
+                    </div>
+                    {% endif %}
+        
+                </div>
+                <hr />
+                <div class="row">
+                    <div class="col">
+                        <a class="pr-3 no-break" href="mailto:{{ site.data.project.email | encode_email }}">
+                            <i class="fas fa-at"></i> <span class="email-text">{{ site.data.project.email | replace: "@", "(at)" }}</span>
+                        </a>
+
+                        {% if site.data.project.gscholar %}
+                        <a class="pr-3 no-break" target="_blank" href="https://scholar.google.com/citations?user={{ site.data.project.gscholar }}&hl=en">
+                            <i class="fab fa-google-scholar"></i> Google Scholar
+                        </a>
+                        {% endif %}
+                        
+                        {% if site.data.project.github %}
+                        <a class="pr-3 no-break" target="_blank" href="https://github.com/{{ site.data.project.github }}">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                        {% endif %}
+
+                        {% if site.data.project.wechat_qrcode %}
+                        <a class="pr-3 no-break" data-toggle="modal" data-target="#modal-wechat">
+                            <i class="fab fa-weixin"></i> WeChat
+                        </a>
+                        {% endif %}
+
+                        {% if site.data.project.twitter %}
+                        <a class="pr-3 no-break" target="_blank" href="https://twitter.com/{{ site.data.project.twitter }}">
+                            <i class="fab fa-twitter"></i> Twitter
+                        </a>
+                        {% endif %}
+
+                        {% if site.data.project.linkedin %}
+                        <a class="pr-3 no-break" target="_blank" href="https://www.linkedin.com/in/{{ site.data.project.linkedin }}">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                        {% endif %}
+
+                        {% if site.data.project.orcid %}
+                        <a class="pr-3 no-break" target="_blank" href="https://orcid.org/{{ site.data.project.orcid }}">
+                            <i class="fab fa-orcid"></i> ORCID
+                        </a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+</div>
+
+{% if site.data.project.wechat_qrcode %}
+<div class="modal fade" id="modal-wechat" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-body p-0">
+                <img src="{{ site.data.project.wechat_qrcode }}" class="img-fluid">
+            </div>
+            {% if site.data.project.wechat_prompt %}
+            <div class="modal-body p-1">
+                {{ site.data.project.wechat_prompt }}
+            </div>
+            {% endif %}
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
