@@ -2,7 +2,7 @@
 title:          "ChemAI: Empowering Robots to Automate Chemical Experiments with Large Language Models"
 date:           2025-03-28 00:01:00 +0800
 selected:       true
-pub:            "2025 International Conference on Computing and Artificial Intelligence (ICCAI 2025)"
+pub:            "2025 International Conference on Computing and Artificial Intelligence (ICCAI)"
 # pub_pre:        "Submitted to "
 # pub_post:       ' Under review.'
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
