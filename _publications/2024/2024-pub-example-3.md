@@ -19,4 +19,5 @@ authors:
   - <a href="https://scholar.google.cz/citations?user=x9vhdoIAAAAJ&hl=zh-CN&oi=ao" target="_blank">Xiaojun Hei</a>#
 links:
   Website: https://starletts.github.io/Ginger_Baristas.github.io/#
+  Paper: https://ieeexplore.ieee.org/document/10907454
 ---

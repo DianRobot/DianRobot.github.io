@@ -2,7 +2,7 @@
 title:          "Self-Perceptive Framework: A Manipulation Framework with Visual Compensation for Zero Position Error"
 date:           2024-09-16 00:01:00 +0800
 selected:       true
-pub:            "IEEE International Conference on Robotics and Automation (ICRA 2025)"
+pub:            "Autonomous Robot"
 # pub_pre:        "Submitted to "
 pub_post:       ' Under review.'
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
